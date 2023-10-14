@@ -31,7 +31,7 @@ func DBConnection(dsn string) (*DB, error) {
 	db, err := gorm.Open(pgConn, &gorm.Config{Logger: gormLog.Default.LogMode(loglevel)})
 
 	if err != nil {
-		logger.Fatal("database refused to connect %v", err)
+		logger.Fatal("database refused %v", err)
 	}
 	sqlDB, _ := db.DB()
 	sqlDB.SetConnMaxIdleTime(time.Minute * 1)
