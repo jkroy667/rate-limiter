@@ -33,7 +33,7 @@ func DBConnection(dsn string) (*DB, error) {
 	if err != nil {
 		logger.Fatal("database refused to connect %v", err)
 	}
-	sqlDB, err := db.DB()
+	sqlDB, _ := db.DB()
 	sqlDB.SetConnMaxIdleTime(time.Minute * 1)
 	//sqlDB.SetMaxIdleConns(10)
 	//sqlDB.SetMaxOpenConns(100)
