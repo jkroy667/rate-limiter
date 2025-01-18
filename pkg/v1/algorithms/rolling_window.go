@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-redis/redis"
 	"github.com/google/uuid"
-	interfaces "github.com/thegeekywanderer/fluxy/pkg/v1"
+	interfaces "github.com/jkroy667/fluxy/pkg/v1"
 )
 
 // RollingWindow strategy
