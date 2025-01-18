@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/viper"
-	"github.com/thegeekywanderer/fluxy/logger"
+	"github.com/jkroy667/fluxy/logger"
 )
 
 // Configuration for fluxy
