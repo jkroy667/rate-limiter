@@ -4,7 +4,7 @@ package v1
 import (
 	"time"
 
-	"github.com/thegeekywanderer/fluxy/models"
+	"github.com/jkroy667/fluxy/models"
 )
 
 // RepoInterface defines an interface for repository of v1API
