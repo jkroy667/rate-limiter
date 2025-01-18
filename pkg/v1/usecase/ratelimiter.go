@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/thegeekywanderer/fluxy/models"
-	interfaces "github.com/thegeekywanderer/fluxy/pkg/v1"
-	algorithm "github.com/thegeekywanderer/fluxy/pkg/v1/algorithms"
+	"github.com/jkroy667/fluxy/models"
+	interfaces "github.com/jkroy667/fluxy/pkg/v1"
+	algorithm "github.com/jkroy667/fluxy/pkg/v1/algorithms"
 	"gorm.io/gorm"
 )
 
