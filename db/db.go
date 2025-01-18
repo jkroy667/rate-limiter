@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/spf13/viper"
-	"github.com/thegeekywanderer/fluxy/logger"
+	"github.com/jkroy667/fluxy/logger"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	gormLog "gorm.io/gorm/logger"
