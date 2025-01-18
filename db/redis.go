@@ -2,7 +2,7 @@ package database
 
 import (
 	"github.com/go-redis/redis"
-	"github.com/thegeekywanderer/fluxy/config"
+	"github.com/jkroy667/fluxy/config"
 )
 
 // RedisConnection returns a redis connection
