@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	interfaces "github.com/thegeekywanderer/fluxy/pkg/v1"
+	interfaces "github.com/jkroy667/fluxy/pkg/v1"
 )
 
 const (
