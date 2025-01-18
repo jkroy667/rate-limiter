@@ -6,9 +6,9 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/thegeekywanderer/fluxy/models"
-	interfaces "github.com/thegeekywanderer/fluxy/pkg/v1"
-	"github.com/thegeekywanderer/fluxy/proto"
+	"github.com/jkroy667/fluxy/models"
+	interfaces "github.com/jkroy667/fluxy/pkg/v1"
+	"github.com/jkroy667/fluxy/proto"
 	"google.golang.org/grpc"
 )
 
